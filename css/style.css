@@ -1684,11 +1684,11 @@ footer a:visited {
     }
 
     header nav ul li a.hbg:hover {
-        padding: 21px 22%;
+        padding: 19.5px 22%;
     }
 
     header nav ul li a.act:hover {
-        padding: 21px 34%;
+        padding: 19.5px 34%;
     }
 
     main {
@@ -1744,6 +1744,9 @@ footer a:visited {
     }
     form:focus-visible{
         outline:none;
+    }
+    input {
+        overflow: hidden;
     }
     .mobileicone {
         width: 50px;
@@ -2195,11 +2198,11 @@ footer a:visited {
     }
 
     header nav ul li a.hbg:hover {
-        padding: 20px 22%;
+        padding: 19.5px 22%;
     }
 
     header nav ul li a.act:hover {
-        padding: 20px 34%;
+        padding: 19.5px 34%;
     }
 
     main {
