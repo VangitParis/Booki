@@ -1764,13 +1764,15 @@ footer a:visited {
         color: #0065fc;
         background-color: #f2f2f2;
     }
+    svg.svg-inline--fa.fa-magnifying-glass{
+        border: none;
+    }
     svg.svg-inline--fa.fa-magnifying-glass:focus-visible{
        outline:none;
        
     }
     svg.svg-inline--fa.fa-magnifying-glass:focus{
         outline:none ;
-        background-position: unset;
     }
 
     .textdeskop {
