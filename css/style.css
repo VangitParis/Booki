@@ -1734,13 +1734,16 @@ footer a:visited {
     }
 
     #search {
-        width: 268px;
-        border-top: 1px solid #f2f2f2;
-        border-bottom: 1px solid #f2f2f2;
+        width: 270px;
+        border-top: 0.5px solid #f2f2f2;
+        border-bottom: 0.5px solid #f2f2f2;
         padding-left: 19px;
         font-size: 19.5px;
+        border-right: 0.5px solid transparent;
     }
-
+    #search:focus-visible{
+        outline: #F2F2F2;
+    }
     .mobileicone {
         width: 50px;
         border-radius: 12px;
@@ -1754,12 +1757,15 @@ footer a:visited {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -3%;
+        margin-left: -20%;
     }
 
     .mobileicone:hover {
         color: #0065fc;
         background-color: #f2f2f2;
+    }
+    .mobileicone:focus-visible{
+        outline: #f2f2f2;
     }
 
     .textdeskop {
@@ -2220,7 +2226,7 @@ footer a:visited {
     .FormulaireRecherche {
         border-radius: 12px;
         justify-content: center;
-        width: 285px;
+        width: 288px;
         margin-left: 0;
         margin-right: 20%;
         border: none;
@@ -2255,7 +2261,7 @@ footer a:visited {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -3%;
+        margin-left: -15%;
     }
 
     .mobileicone:hover {
@@ -2695,7 +2701,7 @@ footer a:visited {
     .mobileicone {
         height: 40px;
         width: 42px;
-        margin-left: -5%;
+        margin-left: -20%;
     }
     .Filtres{
         margin-bottom: 0;
