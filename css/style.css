@@ -1684,11 +1684,11 @@ footer a:visited {
     }
 
     header nav ul li a.hbg:hover {
-        padding: 19px 23%;
+        padding: 21px 22%;
     }
 
     header nav ul li a.act:hover {
-        padding: 19px 34%;
+        padding: 21px 34%;
     }
 
     main {
@@ -1736,8 +1736,8 @@ footer a:visited {
 
     #search {
         width: 270px;
-        border-top: 0.5px solid #f2f2f2;
-        border-bottom: 0.5px solid #f2f2f2;
+        border-top: 1px solid #f2f2f2;
+        border-bottom: 1px solid #f2f2f2;
         padding-left: 19px;
         font-size: 19.5px;
         border-right: 0.5px solid transparent;
@@ -1758,7 +1758,8 @@ footer a:visited {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -5%;
+        margin-left: -2%;
+        
     }
 
     .mobileicone:hover {
@@ -2194,7 +2195,7 @@ footer a:visited {
     }
 
     header nav ul li a.hbg:hover {
-        padding: 20px 23%;
+        padding: 20px 22%;
     }
 
     header nav ul li a.act:hover {
@@ -2230,7 +2231,7 @@ footer a:visited {
     .FormulaireRecherche {
         border-radius: 12px;
         justify-content: center;
-        width: 288px;
+        width: 280px;
         margin-left: 3%;
         margin-right: 20%;
         border: none;
@@ -2241,13 +2242,11 @@ footer a:visited {
         border-radius: 12px 0 0 12px;
         height: 50px;
         width: 60px;
-        margin-right: -3%;
+        margin-right: -1%;
     }
 
     #search {
-        width: 245px;
-        border-top: 1px solid #f2f2f2;
-        border-bottom: 1px solid #f2f2f2;
+        width: 230px;
         padding-left: 20px;
         font-size: 18px;
     }
@@ -2518,15 +2517,13 @@ footer a:visited {
     #Activités {
         margin-top: 0;
         margin-bottom: 150%;
-        margin-left: -1px;
-        margin-right: 2px;
 
     }
 
     #Activités .titreactivites {
         margin-bottom: 10%;
         margin-left: 6.5%;
-        width: 90%;
+        width: 330px;
         font-size: 21px;
     }
 
@@ -2660,7 +2657,7 @@ footer a:visited {
     
     
     header nav ul li a.hbg:hover {
-        padding: 15px 24%;
+        padding: 15px 22%;
     }
 
     header nav ul li a.act:hover {
@@ -2784,7 +2781,7 @@ footer a:visited {
         margin-left: 0px;
         font-size: 13px;
         margin-bottom: 5px;
-        
+        width: 280px;
 
     }
     .titrestar .fa-star{
