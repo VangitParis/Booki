@@ -1671,9 +1671,8 @@ footer a:visited {
     }
 
     header nav ul li .act {
-        margin-left: -13%;
+        margin-right: 10%;
     }
-
     header nav ul li a:hover {
         color: #0065fc;
         border-bottom: 3px solid #0065fc;
@@ -1741,7 +1740,7 @@ footer a:visited {
         font-size: 19.5px;
         border-right: 0.5px solid transparent;
     }
-    #search:focus-visible{
+    form:focus-visible{
         outline:none;
     }
     .mobileicone {
@@ -1953,7 +1952,7 @@ footer a:visited {
         margin-left: 3%;
         font-size: 18px;
         margin-bottom: 5%;
-        width: auto;
+        width: 230px;
     }
 
     .populaires {
@@ -2151,7 +2150,7 @@ footer a:visited {
 
 
 /*SMARTPHONES mobiles M*/
-@media screen and (max-width:413px){
+@media screen and (max-width:424px){
 
     header {
         border-bottom: 3px solid #f2f2f2;
