@@ -1764,8 +1764,8 @@ footer a:visited {
         color: #0065fc;
         background-color: #f2f2f2;
     }
-    .mobileicone:focus{
-        outline:none;
+    svg.svg-inline--fa.fa-magnifying-glass{
+       outline-style: none;
     }
 
     .textdeskop {
