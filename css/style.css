@@ -1742,7 +1742,7 @@ footer a:visited {
         border-right: 0.5px solid transparent;
     }
     #search:focus-visible{
-        outline: #F2F2F2;
+        outline:none;
     }
     .mobileicone {
         width: 50px;
@@ -1767,9 +1767,7 @@ footer a:visited {
     button, [type="submit"] {
         -webkit-appearance: none;
     }
-    svg.svg-inline--fa.fa-magnifying-glass{
-        border: none;
-    }
+    
     svg.svg-inline--fa.fa-magnifying-glass:focus-visible{
        outline:none;
        
@@ -2041,7 +2039,7 @@ footer a:visited {
 
     #Activités .titreactivites {
         margin-bottom: 10%;
-        margin-left: 5%;
+        margin-left: 4.5%;
         width: 90%;
         font-size: 25px;
     }
@@ -2153,7 +2151,7 @@ footer a:visited {
 
 
 /*SMARTPHONES mobiles M*/
-@media screen and (max-width:424px){
+@media screen and (max-width:413px){
 
     header {
         border-bottom: 3px solid #f2f2f2;
