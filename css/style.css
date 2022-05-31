@@ -1692,8 +1692,12 @@ footer a:visited {
     }
 
     main {
-        margin-right: 0;
-        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+
     }
 
     .texte {
@@ -1721,7 +1725,7 @@ footer a:visited {
         border-radius: 15px;
         justify-content: center;
         width: 315px;
-        margin-left: 4%;
+        margin-left: 6%;
         margin-right: 20%;
         border: none;
     }
@@ -1792,7 +1796,7 @@ footer a:visited {
         margin-top: 5%;
         MARGIN-BOTTOM: -115px;
         height: 350px;
-        margin-left: 7%;
+        margin-left: -6%;
         width: 330px;
     }
 
@@ -1866,7 +1870,7 @@ footer a:visited {
     .info {
         width: 24px;
         height: 24px;
-        margin-left: 6%;
+        
         
     }
 
@@ -1965,7 +1969,7 @@ footer a:visited {
         float: none;
         height: auto;
         padding: 20px;
-        width: auto;
+        width: 100%;
         margin-left: 1%;
         margin-right: 1%;
         border-radius: 0px;
@@ -1986,8 +1990,8 @@ footer a:visited {
     .populaires .titrestar {
         margin-bottom: 10px;
         font-size: 15px;
-        margin-left: 1%;
-        margin-right: 1%;
+        margin: auto;
+        width: 380px;
     }
 
     .titrestar .fa-star {
@@ -2038,18 +2042,15 @@ footer a:visited {
     }
 
     #Activités {
-        margin-top: 0;
-        margin-bottom: 150%;
-        margin-left: 3px;
-        margin-right: 2px;
+        margin: auto;
         
 
     }
 
     #Activités .titreactivites {
         margin-bottom: 10%;
-        margin-left: 5.5%;
-        width: 90%;
+        margin-left: 0;
+        width: 380px;
         font-size: 25px;
     }
 
@@ -2074,7 +2075,7 @@ footer a:visited {
     }
 
     #Activités .card .Act_FP {
-        margin-top: 1%;
+        margin-top: 2%;
     }
 
     #Activités .card .Act_FP img {
@@ -2083,7 +2084,7 @@ footer a:visited {
     }
 
     #Activités .card .Act_IF {
-        margin-top: -24%;
+        margin-top: -20%;
 
     }
 
@@ -2094,7 +2095,7 @@ footer a:visited {
 
     #Activités .card .Act_PNC {
         width: 380px;
-        margin-top: -8%;
+        margin-top: -7%;
     }
 
     #Activités .card .Act_PNC img {
@@ -2105,11 +2106,11 @@ footer a:visited {
     #Activités .card .DameParc {
         width: 380px;
         justify-content: space-around;
-        margin-top: 8%;
+        margin-top: 4%;
     }
 
     #Activités .card .Act_NDG {
-        margin-bottom: 6%;
+        margin-bottom: 3%;
     }
 
     #Activités .card .Act_NDG img {
@@ -2119,21 +2120,23 @@ footer a:visited {
     }
 
     #Activités .card .Act_PL {
-        margin-bottom: 35%;
+        margin-bottom: 25%;
     }
 
     #Activités .card .Act_PL img {
         height: 120px;
         object-position: 43% 40%;
     }
-    
+    footer{
+        margin-top:10%
+    }
     .ensemblefooter {
 
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         height: auto;
-        margin-top: -167%;
+        margin-top: -20%;
         width: auto;
     }
 
@@ -2216,6 +2219,7 @@ footer a:visited {
         display: flex;
         flex-wrap: wrap;
         padding-right: 9%;
+        margin-left: -4%;
        
 
 
@@ -2236,7 +2240,7 @@ footer a:visited {
         border-radius: 12px;
         justify-content: center;
         width: 280px;
-        margin-left: 3%;
+        margin-left: 0;
         margin-right: 20%;
         border: none;
     }
@@ -2244,7 +2248,7 @@ footer a:visited {
     .FormulaireRecherche .icônegéo {
         padding: 20px;
         border-radius: 12px 0 0 12px;
-        height: 50px;
+        height: 45px;
         width: 60px;
         margin-right: -1%;
     }
@@ -2253,6 +2257,7 @@ footer a:visited {
         width: 230px;
         padding-left: 20px;
         font-size: 18px;
+        height: 45px;
     }
 
     .mobileicone {
@@ -2261,7 +2266,7 @@ footer a:visited {
         background-color: #0065FC;
         color: white;
         border: none;
-        height: 50px;
+        height: 45px;
         font-weight: 900;
         font-size: medium;
         cursor: pointer;
@@ -2286,6 +2291,7 @@ footer a:visited {
         margin-top: 5%;
         MARGIN-BOTTOM: -100px;
         height: 350px;
+        margin-left: 1%;
        
         
     }
@@ -2300,7 +2306,7 @@ footer a:visited {
 
     button {
         margin-bottom: 25px;
-        font-size: 18px;
+        font-size: 17px;
         padding-left: 13px;
         padding-right: 13px;
         height: 40px;
@@ -2355,14 +2361,14 @@ footer a:visited {
     }
 
     .info {
-        width: 24px;
-        height: 24px;
-        
+        width: 22px;
+        height: 22px;
+        margin-left: 3%;
     }
 
     .texteinfo {
         font-size: 16.2px;
-        padding-right: 5%;
+        padding-right: 3%;
         width: 321px;
     }
 
@@ -2467,7 +2473,7 @@ footer a:visited {
     }
 
     .populaires .titrestar {
-        margin-bottom: 10px;
+        width: 330px;
         font-size: 14px;
     }
 
@@ -2518,15 +2524,9 @@ footer a:visited {
         margin-top: -10px;
     }
 
-    #Activités {
-        margin-top: 0;
-        margin-bottom: 150%;
-
-    }
+   
 
     #Activités .titreactivites {
-        margin-bottom: 10%;
-        margin-left: 6.5%;
         width: 330px;
         font-size: 21px;
     }
@@ -2617,7 +2617,7 @@ footer a:visited {
         justify-content: flex-start;
         align-items: flex-start;
         height: auto;
-        margin-top: -165%;
+        margin-top: -25%;
         width: auto;
     }
 
@@ -2667,19 +2667,25 @@ footer a:visited {
     header nav ul li a.act:hover {
         padding: 15px 34%;
     }
-    
+    .texte{
+        margin-left: -5%;
+        padding-right: 0;
+    }
     .titre {
         font-size: 19px;
         width: 290px;
+        
     }
 
     .texte p {
         font-size: 14px;
         margin-bottom: 20px;
+        
     }
 
     .FormulaireRecherche {
         width: 230px;
+       margin-left: -4%;
     }
 
     .FormulaireRecherche .icônegéo {
@@ -2720,8 +2726,9 @@ footer a:visited {
         padding-right: 0;
     }
     .info{
-        width: 22px;
-        height: 22px;
+        width: 20px;
+        height: 20px;
+        margin-left: 0;
         
     }
     button {
@@ -2782,9 +2789,7 @@ footer a:visited {
     }
    
     .populaires .titrestar{
-        margin-left: 0px;
         font-size: 13px;
-        margin-bottom: 5px;
         width: 280px;
 
     }
@@ -2821,9 +2826,9 @@ footer a:visited {
     }
     
     #Activités .titreactivites{
-        margin-left: 7.5%;
         font-size: 19px;
         width: 280px;
+        margin-left: 4%;
     }
     #Activités .card{
         margin-left: 10px;
@@ -2874,7 +2879,7 @@ footer a:visited {
     
     #Activités .card .Act_PL{
         box-shadow: 1px 5px 5px 1px #f2f2f2;
-        margin-bottom: 50%;
+        margin-bottom: 35%;
     }
     #Activités .card .Act_PL img {
        
@@ -2887,7 +2892,8 @@ footer a:visited {
         width: 100%;
     }
     .ensemblefooter{
-        margin-top: -183%;
+        margin-top: -30%;
+        font-size: 14px;
     }
     .apropos{
         margin-bottom: -4%;
