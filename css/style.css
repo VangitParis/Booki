@@ -681,8 +681,10 @@ main a:visited {
 }
 
 /*FOOTER*/
-.ensemblefooter {
+footer{
     background-color: #f2f2f2;
+}
+.ensemblefooter {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1645,19 +1647,20 @@ footer a:visited {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: auto;
     }
 
     .barrenav {
         flex-direction: column;
         height: 120px;
-        width: 420px;
+        width:100%;
        
     }
 
 
     header nav ul {
         font-weight: 300;
-        width: 100%;
+        width: 430px;
         padding: 0;
         justify-content: space-between;
         margin: auto;
@@ -1705,7 +1708,7 @@ footer a:visited {
         display: flex;
         flex-wrap: wrap;
         padding-right: 9%;
-        padding-left: 6%;
+        padding-left: 3%;
 
 
     }
@@ -1725,7 +1728,7 @@ footer a:visited {
         border-radius: 15px;
         justify-content: center;
         width: 315px;
-        margin-left: 6%;
+        margin-left: 1%;
         margin-right: 20%;
         border: none;
     }
@@ -1765,7 +1768,7 @@ footer a:visited {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -2%;
+        margin-left: -20%;
         
     }
 
@@ -1793,10 +1796,10 @@ footer a:visited {
         flex-direction: column;
         align-items: flex-start;
         justify-content: flex-start;
-        margin-top: 5%;
+        margin-top: 3%;
         MARGIN-BOTTOM: -115px;
         height: 350px;
-        margin-left: -6%;
+        margin-left: -10%;
         width: 330px;
     }
 
@@ -1865,6 +1868,7 @@ footer a:visited {
         justify-content: flex-start;
         width: auto;
         margin-bottom: 15px;
+        margin-left: -3%;
     }
 
     .info {
@@ -2128,31 +2132,31 @@ footer a:visited {
         object-position: 43% 40%;
     }
     footer{
-        margin-top:10%
+        margin-top:-5%
     }
     .ensemblefooter {
-
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         height: auto;
-        margin-top: -20%;
-        width: auto;
+        margin:auto;
+        width: 425px;
+
     }
 
     .apropos {
-        margin-left: 10%;
+        margin-left: 7%;
         margin-bottom: 0;
         margin-top: 5%;
     }
 
     .noshebergements {
-        margin-left: 10%;
+        margin-left: 7%;
         margin-bottom: -8%;
     }
 
     .assistance {
-        margin-left: 10%;
+        margin-left: 7%;
 
 
     }
@@ -2174,13 +2178,13 @@ footer a:visited {
     .barrenav {
         flex-direction: column;
         height: 120px;
-        width: 370px;
+        width: 100%;
     }
 
 
     header nav ul {
         font-weight: 300;
-        width: 100%;
+        width: 370px;
         padding: 0;
         justify-content: space-between;
         margin: auto;
@@ -2219,7 +2223,7 @@ footer a:visited {
         display: flex;
         flex-wrap: wrap;
         padding-right: 9%;
-        margin-left: -4%;
+        margin-left: -2%;
        
 
 
@@ -2240,7 +2244,7 @@ footer a:visited {
         border-radius: 12px;
         justify-content: center;
         width: 280px;
-        margin-left: 0;
+        margin-left: 2%;
         margin-right: 20%;
         border: none;
     }
@@ -2254,7 +2258,7 @@ footer a:visited {
     }
 
     #search {
-        width: 230px;
+        width: 240px;
         padding-left: 20px;
         font-size: 18px;
         height: 45px;
@@ -2273,6 +2277,7 @@ footer a:visited {
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: -20%;
     }
 
     .mobileicone:hover {
@@ -2359,7 +2364,9 @@ footer a:visited {
         justify-content: flex-start;
         width: auto;
     }
-
+    .InfoTexte{
+    margin-left: 0;
+    }
     .info {
         width: 22px;
         height: 22px;
@@ -2610,33 +2617,25 @@ footer a:visited {
         height: 40px;
         font-size: 14px;
     }
-    
+    footer{
+        margin-top: -15%;
+    }
     .ensemblefooter {
-
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        height: auto;
-        margin-top: -25%;
-        width: auto;
+        width: 375px;
     }
 
     .apropos {
-        margin-left: 10%;
+       
         margin-bottom: 2%;
         margin-top: 2%;
     }
 
     .noshebergements {
-        margin-left: 10%;
+      
         margin-bottom: -7%;
     }
 
-    .assistance {
-        margin-left: 10%;
-
-
-    }
+   
     .étoiles{
         font-size: 11px;
     }
@@ -2650,12 +2649,13 @@ footer a:visited {
         
     }
     .barrenav {
-        width: 315px;
+        width: 100%;
        
     }
 
     header nav ul {
         font-size: 14px;
+        width: 310px;
     }
     
     
@@ -2668,7 +2668,7 @@ footer a:visited {
         padding: 15px 34%;
     }
     .texte{
-        margin-left: -5%;
+        margin-left: -1%;
         padding-right: 0;
     }
     .titre {
@@ -2685,7 +2685,7 @@ footer a:visited {
 
     .FormulaireRecherche {
         width: 230px;
-       margin-left: -4%;
+       margin-left: 0;
     }
 
     .FormulaireRecherche .icônegéo {
@@ -2696,7 +2696,7 @@ footer a:visited {
     }
 
     #search {
-        width: 200px;
+        width: 210px;
         height: 40px;
         font-size: medium;
         padding-left: 15px;
@@ -2706,6 +2706,7 @@ footer a:visited {
     .mobileicone {
         height: 40px;
         width: 42px;
+        margin-left: -20%;
         
     }
     .Filtres{
@@ -2718,17 +2719,18 @@ footer a:visited {
     .InfoTexte {
         width: auto;
         margin-bottom: 13px;
+        margin-left: 1%;
     }
 
     .texteinfo {
-        font-size: 14px;
-        width: 260px;
+        font-size: 13.5px;
+        width: 280px;
         padding-right: 0;
     }
     .info{
         width: 20px;
         height: 20px;
-        margin-left: 0;
+        margin-left: 3%;
         
     }
     button {
@@ -2891,15 +2893,23 @@ footer a:visited {
         font-size: 12px;
         width: 100%;
     }
+    footer{
+        margin-top: -20%;
+    }
     .ensemblefooter{
-        margin-top: -30%;
+        width: 320px;
         font-size: 14px;
     }
     .apropos{
         margin-bottom: -4%;
+        margin-left: 9%;
     }
     .noshebergements{
         margin-bottom: -12%;
+        margin-left: 9%;
+    }
+    .assistance{
+        margin-left: 9%;
     }
     .étoiles{
         font-size: 9px;
