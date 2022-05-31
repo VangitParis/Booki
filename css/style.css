@@ -1526,7 +1526,7 @@ footer a:visited {
     .titreactivites {
         margin-top: -30px;
         margin-bottom: 0;
-        margin-left: 1%;
+        margin-left: 3px;
     }
 
     #Activités .card {
@@ -1737,7 +1737,7 @@ footer a:visited {
         padding: 25px;
         border-radius: 12px 0 0 12px;
         height: 50px;
-        width: 60px;
+        width: 55px;
         margin-right: -1%;
         position: relative;
     }
@@ -1746,7 +1746,7 @@ footer a:visited {
         width: 270px;
         border-top: 1px solid #f2f2f2;
         border-bottom: 1px solid #f2f2f2;
-        padding-left: 19px;
+        padding-left: 25px;
         font-size: 19.5px;
         border-right: 0.5px solid transparent;
     }
@@ -2245,7 +2245,7 @@ footer a:visited {
         border-radius: 12px;
         justify-content: center;
         width: 280px;
-        margin-left: 2%;
+        margin-left: 1%;
         margin-right: 20%;
         border: none;
     }
@@ -2260,7 +2260,7 @@ footer a:visited {
 
     #search {
         width: 240px;
-        padding-left: 20px;
+        padding-left: 30px;
         font-size: 18px;
         height: 45px;
     }
@@ -2686,7 +2686,7 @@ footer a:visited {
 
     .FormulaireRecherche {
         width: 230px;
-       margin-left: 0;
+       margin-left: -4px;
     }
 
     .FormulaireRecherche .icônegéo {
@@ -2700,7 +2700,7 @@ footer a:visited {
         width: 210px;
         height: 40px;
         font-size: medium;
-        padding-left: 15px;
+        padding-left: 25px;
 
     }
 
@@ -2769,6 +2769,7 @@ footer a:visited {
         width: 280px;
         font-size: 15px;
         margin-bottom: 15px;
+        margin-left: 4%;
     }
     #hebergements a figure figcaption{
     height: 63px;
