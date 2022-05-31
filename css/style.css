@@ -1745,7 +1745,7 @@ footer a:visited {
     form:focus-visible{
         outline:none;
     }
-    input {
+    input#search {
         overflow: hidden;
     }
     .mobileicone {
@@ -1965,7 +1965,7 @@ footer a:visited {
         float: none;
         height: auto;
         padding: 20px;
-        width: 100%;
+        width: auto;
         margin-left: 1%;
         margin-right: 1%;
         border-radius: 0px;
@@ -2042,6 +2042,7 @@ footer a:visited {
         margin-bottom: 150%;
         margin-left: 3px;
         margin-right: 2px;
+        
 
     }
 
