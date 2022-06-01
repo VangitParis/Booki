@@ -1746,7 +1746,7 @@ footer a:visited {
         width: 292px;
         border-top: 1px solid #f2f2f2;
         border-bottom: 1px solid #f2f2f2;
-        padding-left: 39px;
+        padding-left: 23px;
         font-size: 19.5px;
         border-right: 1px solid transparent;
         margin-left: -20px;
@@ -2261,7 +2261,7 @@ footer a:visited {
 
     #search {
         width: 270px;
-        padding-left: 45px;
+        padding-left: 25px;
         font-size: 18px;
         height: 45px;
     }
@@ -2701,7 +2701,7 @@ footer a:visited {
         width: 235px;
         height: 40px;
         font-size: medium;
-        padding-left: 50px;
+        padding-left: 25px;
 
     }
 
