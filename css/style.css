@@ -2246,7 +2246,7 @@ footer a:visited {
         border-radius: 12px;
         justify-content: center;
         width: 280px;
-        margin-left: 1%;
+        margin-left: 4%;
         margin-right: 20%;
         border: none;
     }
@@ -2260,8 +2260,8 @@ footer a:visited {
     }
 
     #search {
-        width: 260px;
-        padding-left: 50px;
+        width: 270px;
+        padding-left: 45px;
         font-size: 18px;
         height: 45px;
     }
