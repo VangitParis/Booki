@@ -1743,12 +1743,13 @@ footer a:visited {
     }
 
     #search {
-        width: 270px;
+        width: 292px;
         border-top: 1px solid #f2f2f2;
         border-bottom: 1px solid #f2f2f2;
-        padding-left: 25px;
+        padding-left: 39px;
         font-size: 19.5px;
-        border-right: 0.5px solid transparent;
+        border-right: 1px solid transparent;
+        margin-left: -20px;
     }
     form:focus-visible{
         outline:none;
@@ -1769,7 +1770,7 @@ footer a:visited {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-left: -20%;
+        margin-left: -15%;
         
     }
 
@@ -2259,8 +2260,8 @@ footer a:visited {
     }
 
     #search {
-        width: 240px;
-        padding-left: 30px;
+        width: 260px;
+        padding-left: 50px;
         font-size: 18px;
         height: 45px;
     }
@@ -2697,10 +2698,10 @@ footer a:visited {
     }
 
     #search {
-        width: 210px;
+        width: 235px;
         height: 40px;
         font-size: medium;
-        padding-left: 25px;
+        padding-left: 50px;
 
     }
 
