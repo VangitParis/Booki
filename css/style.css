@@ -7,10 +7,10 @@ body {
     font-size: 100%;
 
 }
+
 /*REGLES DE STYLES*/
 li {
     list-style: none;
-
 }
 
 a:link {
@@ -22,12 +22,15 @@ a:visited {
     text-decoration: none;
     color: #000;
 }
+
 .fa-star {
     color: #d9d9d9;
 }
+
 .checked {
     color: #0065fc;
 }
+
 /*HEADER*/
 header {
     padding-left: 2%;
@@ -35,14 +38,11 @@ header {
     padding-right: 2%;
 }
 
-
 .barrenav {
     display: FLEX;
     justify-content: space-between;
     align-items: center;
     height: 100px;
-
-
 }
 
 header nav img {
@@ -56,8 +56,6 @@ header nav ul {
     align-items: center;
     margin-left: 60%;
     list-style: none;
-
-
 }
 
 header nav ul li {
@@ -538,7 +536,7 @@ button:hover {
     color: goldenrod;
 }
 
-a:hover h3{
+a:hover h3 {
     color: #0065fc;
 
 }
@@ -679,9 +677,10 @@ a:hover h3{
 
 
 /*FOOTER*/
-footer{
+footer {
     background-color: #f2f2f2;
 }
+
 .ensemblefooter {
     display: flex;
     justify-content: space-between;
@@ -777,18 +776,23 @@ footer li {
         padding-right: 10px;
         font-size: 13px;
     }
-    .eco{
+
+    .eco {
         margin-right: 11px;
     }
+
     .fam {
         margin-left: 1%;
     }
-    .romanim{
+
+    .romanim {
         margin-left: -4%;
     }
-    .rom{
+
+    .rom {
         margin-left: 13%;
     }
+
     .anim {
         margin-right: -10%;
         margin-left: -8%;
@@ -972,7 +976,7 @@ footer li {
 }
 
 /*Breackpoint deskop Grands écrans PC*/
-@media screen and (min-width:2187px)  {
+@media screen and (min-width:2187px) {
     body {
         font-size: 165%;
     }
@@ -1090,7 +1094,7 @@ footer li {
 
     button:hover {
         font-size: xx-large;
-        
+
     }
 
     .fa-money-bill-wave:hover,
@@ -1113,17 +1117,20 @@ footer li {
     #hebergements a img {
         height: 205px;
     }
-    #hebergements a figcaption h3{
+
+    #hebergements a figcaption h3 {
         margin-bottom: 20px;
         margin-top: 20px;
     }
-    #hebergements a figcaption p{
+
+    #hebergements a figcaption p {
         margin-bottom: 20px;
     }
-    #hebergements .afficherplus{
+
+    #hebergements .afficherplus {
         margin-top: -11px;
     }
-    
+
     .populaires {
         height: 1050px;
         border-radius: 20px;
@@ -1149,7 +1156,7 @@ footer li {
         margin-bottom: 26px;
         margin-top: 5px;
         padding: 2%;
-        
+
     }
 
     .populaires .card3 {
@@ -1157,7 +1164,7 @@ footer li {
         padding: 2%;
     }
 
-    
+
 
     .populaires a figure img {
         width: 34%;
@@ -1173,10 +1180,12 @@ footer li {
         flex-direction: column;
         justify-content: center;
     }
-    .populaires a figure figcaption h3{
+
+    .populaires a figure figcaption h3 {
         margin-top: 5px;
         margin-bottom: 7px;
     }
+
     .populaires a figure figcaption p {
         margin-bottom: 22%;
         margin-top: 3%;
@@ -1278,15 +1287,19 @@ footer li {
         border-top: none;
         padding: 41px;
     }
-    .texte{
+
+    .texte {
         margin-left: 2%;
     }
-    .titre{
+
+    .titre {
         font-size: 22px;
     }
-    .texte p{
+
+    .texte p {
         font-size: 20px;
     }
+
     .FormulaireRecherche {
         border-radius: 15px;
         width: 530px;
@@ -1624,9 +1637,10 @@ footer li {
         margin-right: 3%;
     }
 }
+
 /*SMARTPHONES mobiles L*/
 @media screen and (max-width:767px) {
-    
+
     header {
         flex-direction: column;
         padding-left: 0;
@@ -1640,7 +1654,7 @@ footer li {
     .barrenav {
         flex-direction: column;
         height: 120px;
-        width:100%;
+        width: 100%;
         border-bottom: 3px solid #f2f2f2;
     }
 
@@ -1664,7 +1678,7 @@ footer li {
         margin-left: 2%;
     }
 
-    
+
     header nav ul li a:hover {
         color: #0065fc;
         border-bottom: 3px solid #0065fc;
@@ -1739,12 +1753,15 @@ footer li {
         margin-left: -20px;
         margin-right: -1px;
     }
-    form:focus-visible{
-        outline:none;
+
+    form:focus-visible {
+        outline: none;
     }
+
     input#search {
         overflow: hidden;
     }
+
     .mobileicone {
         width: 50px;
         border-radius: 12px;
@@ -1759,23 +1776,26 @@ footer li {
         justify-content: center;
         align-items: center;
         margin-left: -9%;
-        
+
     }
 
     .mobileicone:hover {
         color: #0065fc;
         background-color: #f2f2f2;
     }
-    button, [type="submit"] {
+
+    button,
+    [type="submit"] {
         -webkit-appearance: none;
     }
-    
-    svg.svg-inline--fa.fa-magnifying-glass:focus-visible{
-       outline:none;
-       
+
+    svg.svg-inline--fa.fa-magnifying-glass:focus-visible {
+        outline: none;
+
     }
-    svg.svg-inline--fa.fa-magnifying-glass:focus{
-        outline:none ;
+
+    svg.svg-inline--fa.fa-magnifying-glass:focus {
+        outline: none;
     }
 
     .textdeskop {
@@ -1813,19 +1833,21 @@ footer li {
         display: flex;
         margin-left: 1px;
     }
-    .eco{
+
+    .eco {
         margin-right: 10px;
     }
+
     .romanim {
         display: flex;
         flex-wrap: wrap;
         margin-left: -13px;
-        
+
     }
 
     .rom {
         margin-left: 6%;
-       
+
     }
 
     .anim {
@@ -1864,8 +1886,8 @@ footer li {
     .info {
         width: 24px;
         height: 24px;
-        
-        
+
+
     }
 
     .texteinfo {
@@ -1901,7 +1923,7 @@ footer li {
         margin-bottom: 2%;
         width: auto;
         font-size: 25px;
-        
+
     }
 
     #hebergements .bloc-cartes-1 {
@@ -1944,13 +1966,16 @@ footer li {
         min-height: 0;
         margin-left: 20px;
     }
-    #hebergements a figcaption h3{
-        margin-top : 28px;
+
+    #hebergements a figcaption h3 {
+        margin-top: 28px;
         margin-bottom: 14px;
     }
-    #hebergements a figcaption p{
-        margin-bottom:7px;
+
+    #hebergements a figcaption p {
+        margin-bottom: 7px;
     }
+
     #hebergements .afficherplus {
         margin-top: 6%;
         margin-left: 3%;
@@ -1978,7 +2003,7 @@ footer li {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     .populaires .titrestar {
@@ -2037,7 +2062,7 @@ footer li {
 
     #Activités {
         margin: auto;
-        
+
 
     }
 
@@ -2110,7 +2135,7 @@ footer li {
     #Activités .card .Act_NDG img {
         height: 120px;
         object-position: 32% 20%;
-        
+
     }
 
     #Activités .card .Act_PL {
@@ -2121,15 +2146,17 @@ footer li {
         height: 120px;
         object-position: 43% 40%;
     }
-    footer{
-        margin-top:-5%
+
+    footer {
+        margin-top: -5%
     }
+
     .ensemblefooter {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
         height: auto;
-        margin:auto;
+        margin: auto;
         width: 425px;
 
     }
@@ -2150,14 +2177,15 @@ footer li {
 
 
     }
-    .étoiles{
+
+    .étoiles {
         font-size: 11px;
     }
 }
 
 
 /*SMARTPHONES mobiles M*/
-@media screen and (max-width:424px){
+@media screen and (max-width:424px) {
 
     header {
         padding-left: 0;
@@ -2213,7 +2241,7 @@ footer li {
         flex-wrap: wrap;
         padding-right: 9%;
         margin-left: -2%;
-       
+
 
 
     }
@@ -2265,14 +2293,14 @@ footer li {
         display: flex;
         justify-content: center;
         align-items: center;
-        
+
     }
 
     .mobileicone:hover {
         color: #0065fc;
         background-color: #f2f2f2;
     }
-    
+
 
     .textdeskop {
         display: none;
@@ -2285,8 +2313,8 @@ footer li {
         MARGIN-BOTTOM: -100px;
         height: 350px;
         margin-left: 1%;
-       
-        
+
+
     }
 
     .boutonstexte {
@@ -2314,12 +2342,12 @@ footer li {
         display: flex;
         flex-wrap: wrap;
         margin-left: -14px;
-        
+
     }
 
     .rom {
         margin-left: 6%;
-       
+
     }
 
     .anim {
@@ -2352,9 +2380,11 @@ footer li {
         justify-content: flex-start;
         width: auto;
     }
-    .InfoTexte{
-    margin-left: 0;
+
+    .InfoTexte {
+        margin-left: 0;
     }
+
     .info {
         width: 22px;
         height: 22px;
@@ -2436,10 +2466,12 @@ footer li {
         min-height: 0;
         margin-top: 5px;
     }
+
     #hebergements a figcaption h3 {
         margin-top: 20px;
         margin-bottom: 20px;
     }
+
     #hebergements a figcaption p {
         margin-top: -16px;
     }
@@ -2519,7 +2551,7 @@ footer li {
         margin-top: -10px;
     }
 
-   
+
 
     #Activités .titreactivites {
         width: 330px;
@@ -2589,7 +2621,7 @@ footer li {
     #Activités .card .Act_NDG img {
         height: 120px;
         object-position: 32% 6%;
-        
+
     }
 
     #Activités .card .Act_PL {
@@ -2600,50 +2632,53 @@ footer li {
         height: 120px;
         object-position: 43% 31%;
     }
-    #Activités .card figure figcaption{
+
+    #Activités .card figure figcaption {
         width: 100%;
         height: 40px;
         font-size: 14px;
     }
-    footer{
+
+    footer {
         margin-top: -15%;
     }
+
     .ensemblefooter {
         width: 375px;
     }
 
     .apropos {
-       
+
         margin-bottom: 2%;
         margin-top: 2%;
     }
 
     .noshebergements {
-      
+
         margin-bottom: -7%;
     }
 
-   
-    .étoiles{
+
+    .étoiles {
         font-size: 11px;
     }
 }
 
 /*SMARTPHONE mobile S*/
 @media screen and (max-width:374px) {
-    
+
     .barrenav {
         width: 100%;
-       
+
     }
 
     header nav ul {
         font-size: 14px;
         width: 310px;
     }
-    
-    
-    
+
+
+
     header nav ul li a.hbg:hover {
         padding: 19px 22%;
     }
@@ -2651,56 +2686,60 @@ footer li {
     header nav ul li a.act:hover {
         padding: 19px 34%;
     }
-    .texte{
+
+    .texte {
         margin-left: -1%;
         padding-right: 0;
     }
+
     .titre {
         font-size: 19px;
         width: 290px;
-        
+
     }
 
     .texte p {
         font-size: 14px;
         margin-bottom: 20px;
-        
+
     }
 
     .FormulaireRecherche {
         width: 230px;
-       margin-left: -4px;
-       
+        margin-left: -4px;
+
     }
 
     .FormulaireRecherche .icônegéo {
         height: 40px;
         width: 45px;
         font-size: small;
-        
+
     }
 
     #search {
         width: 220px;
         height: 40px;
         font-size: medium;
-        
+
 
     }
 
     .mobileicone {
         height: 40px;
         width: 42px;
-        
-        
+
+
     }
-    .Filtres{
+
+    .Filtres {
         margin-bottom: 0;
         height: 240px;
         width: 300px;
         margin-left: 6%;
 
     }
+
     .InfoTexte {
         width: auto;
         margin-bottom: 13px;
@@ -2712,54 +2751,64 @@ footer li {
         width: 280px;
         padding-right: 0;
     }
-    .info{
+
+    .info {
         width: 20px;
         height: 20px;
         margin-left: 3%;
-        
+
     }
+
     button {
         font-size: 15px;
     }
-    #hebergements{
-    margin-left: 5px ;
+
+    #hebergements {
+        margin-left: 5px;
     }
-    #hebergements .titreheb{
+
+    #hebergements .titreheb {
         font-size: 19px;
     }
-    
-    #hebergements a figure figcaption{
+
+    #hebergements a figure figcaption {
         height: 50px;
         margin-top: 5px;
     }
-    #hebergements .bloc-cartes-1{
+
+    #hebergements .bloc-cartes-1 {
         margin-left: 18px;
     }
-    #hebergements .bloc-cartes-2{
+
+    #hebergements .bloc-cartes-2 {
         margin-left: 10px;
     }
-    #hebergements a{
+
+    #hebergements a {
         width: 280px;
         height: 185px;
         padding: 1%;
         box-shadow: 1px 5px 5px 1px #f2f2f2;
     }
-    #hebergements a img{
+
+    #hebergements a img {
         height: 110px;
         object-position: 0 48%;
     }
 
-    #hebergements .afficherplus{
+    #hebergements .afficherplus {
         width: 280px;
         font-size: 15px;
         margin-bottom: 15px;
         margin-left: 4%;
     }
-    #hebergements a figure figcaption{
-    height: 63px;
-    font-size: 12px;
-    margin-left: 20px;
+
+    #hebergements a figure figcaption {
+        height: 63px;
+        font-size: 12px;
+        margin-left: 20px;
     }
+
     #hebergements a figcaption h3 {
         margin-top: 10px;
         margin-bottom: 21px;
@@ -2775,129 +2824,155 @@ footer li {
         flex-direction: column;
         justify-content: center;
     }
-   
-    .populaires .titrestar{
+
+    .populaires .titrestar {
         font-size: 13px;
         width: 280px;
 
     }
-    .titrestar .fa-star{
+
+    .titrestar .fa-star {
         font-size: 16px;
         margin-top: -6px;
     }
-    .populaires .card{
+
+    .populaires .card {
         width: 280px;
 
     }
-    .populaires .card3{
+
+    .populaires .card3 {
         width: 280px;
     }
-    
-    .populaires a figure img{
+
+    .populaires a figure img {
         width: 39%;
         height: 120px;
         object-position: 50% 40%;
 
     }
+
     .populaires a figure figcaption {
         padding-left: 16px;
         padding-right: 21px;
         width: 61%;
         font-size: 12px;
     }
-    .populaires a figure figcaption h3{
+
+    .populaires a figure figcaption h3 {
         margin-bottom: -17px;
     }
-    .populaires a figure figcaption p{
+
+    .populaires a figure figcaption p {
         margin-bottom: 30px;
         margin-top: 25px;
     }
-    
-    #Activités .titreactivites{
+
+    #Activités .titreactivites {
         font-size: 19px;
         width: 280px;
         margin-left: 4%;
     }
-    #Activités .card{
+
+    #Activités .card {
         margin-left: 10px;
     }
+
     #Activités .card .Act_VP {
         width: 280px;
         box-shadow: 1px 5px 5px 1px #f2f2f2;
     }
+
     #Activités .card .Act_VP img {
-       
+
         object-position: 43% 4%;
     }
-    #Activités .card .FortIles{
+
+    #Activités .card .FortIles {
         width: 280px;
         margin-top: -50px;
     }
-    #Activités .card .Act_FP{
+
+    #Activités .card .Act_FP {
         box-shadow: 1px 5px 5px 1px #f2f2f2;
     }
+
     #Activités .card .Act_FP img {
-       
+
         object-position: 43% 42%;
     }
-    #Activités .card .Act_IF{
+
+    #Activités .card .Act_IF {
         box-shadow: 1px 5px 5px 1px #f2f2f2;
         margin-top: -42%;
     }
+
     #Activités .card .Act_IF img {
-       
+
         object-position: 43% 4%;
     }
-    #Activités .card .Act_PNC{
+
+    #Activités .card .Act_PNC {
         width: 280px;
         box-shadow: 1px 5px 5px 1px #f2f2f2;
         margin-top: -16%;
     }
+
     #Activités .card .Act_PNC img {
-       
+
         object-position: 43% 2%;
     }
-    #Activités .card .DameParc{
+
+    #Activités .card .DameParc {
         width: 280px;
-        
+
     }
-    #Activités .card .Act_NDG{
+
+    #Activités .card .Act_NDG {
         box-shadow: 1px 5px 5px 1px #f2f2f2;
     }
-    
-    #Activités .card .Act_PL{
+
+    #Activités .card .Act_PL {
         box-shadow: 1px 5px 5px 1px #f2f2f2;
         margin-bottom: 35%;
     }
+
     #Activités .card .Act_PL img {
-       
+
         object-position: 43% 15%;
     }
-    #Activités .card figure figcaption{
+
+    #Activités .card figure figcaption {
         padding-left: 6%;
         height: 40px;
         font-size: 12px;
         width: 100%;
     }
-    footer{
+
+    footer {
         margin-top: -20%;
     }
-    .ensemblefooter{
+
+    .ensemblefooter {
         width: 320px;
         font-size: 14px;
     }
-    .apropos{
+
+    .apropos {
         margin-bottom: -4%;
         margin-left: 9%;
     }
-    .noshebergements{
+
+    .noshebergements {
         margin-bottom: -12%;
         margin-left: 9%;
     }
-    .assistance{
+
+    .assistance {
         margin-left: 9%;
     }
-    .étoiles{
+
+    .étoiles {
         font-size: 9px;
     }
 }
