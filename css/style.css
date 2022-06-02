@@ -522,11 +522,11 @@ button:hover {
     box-shadow: 3px 4px 20px grey;
 }
 
-.populaires a:hover .checked {
+.populaires a .checked:hover {
     color: goldenrod;
 }
 
-a:hover h3 {
+a h3:hover{
     color: #0065fc;
 
 }
@@ -1641,7 +1641,7 @@ footer a:visited {
 @media screen and (max-width:767px) {
     
     header {
-        border-bottom: 3px solid #f2f2f2;
+        flex-direction: column;
         padding-left: 0;
         padding-right: 0;
         display: flex;
@@ -1654,7 +1654,7 @@ footer a:visited {
         flex-direction: column;
         height: 120px;
         width:100%;
-       
+        border-bottom: 3px solid #f2f2f2;
     }
 
 
@@ -1687,11 +1687,11 @@ footer a:visited {
     }
 
     header nav ul li a.hbg:hover {
-        padding: 19px 22%;
+        padding: 16px 22%;
     }
 
     header nav ul li a.act:hover {
-        padding: 19px 34%;
+        padding: 16px 34%;
     }
 
     main {
@@ -1728,7 +1728,7 @@ footer a:visited {
         border-radius: 15px;
         justify-content: center;
         width: 315px;
-        margin-left: 3%;
+        margin-left: 1%;
         margin-right: 20%;
         border: none;
     }
@@ -1746,10 +1746,11 @@ footer a:visited {
         width: 292px;
         border-top: 1px solid #f2f2f2;
         border-bottom: 1px solid #f2f2f2;
-        padding-left: 23px;
+        padding-left: 40px;
         font-size: 19.5px;
         border-right: 1px solid transparent;
-        margin-left: -20px;
+        margin-left: -15px;
+        margin-right: -10px;
     }
     form:focus-visible{
         outline:none;
@@ -2172,7 +2173,6 @@ footer a:visited {
 @media screen and (max-width:424px){
 
     header {
-        border-bottom: 3px solid #f2f2f2;
         padding-left: 0;
         padding-right: 0;
     }
@@ -2208,11 +2208,11 @@ footer a:visited {
     }
 
     header nav ul li a.hbg:hover {
-        padding: 18.93px 22%;
+        padding: 17px 22%;
     }
 
     header nav ul li a.act:hover {
-        padding: 18.93px 34%;
+        padding: 17px 34%;
     }
 
     main {
@@ -2246,7 +2246,7 @@ footer a:visited {
         border-radius: 12px;
         justify-content: center;
         width: 280px;
-        margin-left: 4%;
+        margin-left: 2%;
         margin-right: 20%;
         border: none;
     }
@@ -2261,7 +2261,6 @@ footer a:visited {
 
     #search {
         width: 270px;
-        padding-left: 25px;
         font-size: 18px;
         height: 45px;
     }
@@ -2663,11 +2662,11 @@ footer a:visited {
     
     
     header nav ul li a.hbg:hover {
-        padding: 15px 22%;
+        padding: 18.5px 22%;
     }
 
     header nav ul li a.act:hover {
-        padding: 15px 34%;
+        padding: 18.5px 34%;
     }
     .texte{
         margin-left: -1%;
@@ -2688,6 +2687,7 @@ footer a:visited {
     .FormulaireRecherche {
         width: 230px;
        margin-left: -4px;
+       margin-top: 50px;
     }
 
     .FormulaireRecherche .icônegéo {
@@ -2701,7 +2701,7 @@ footer a:visited {
         width: 235px;
         height: 40px;
         font-size: medium;
-        padding-left: 25px;
+        
 
     }
 
