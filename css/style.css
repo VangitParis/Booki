@@ -1736,7 +1736,7 @@ footer li {
         padding-left: 40px;
         font-size: 19.5px;
         border-right: 1px solid transparent;
-        margin-left: -10px;
+        margin-left: -20px;
         margin-right: -1px;
     }
     form:focus-visible{
@@ -2681,7 +2681,7 @@ footer li {
     }
 
     #search {
-        width: 230px;
+        width: 220px;
         height: 40px;
         font-size: medium;
         
