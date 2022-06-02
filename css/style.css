@@ -7,7 +7,27 @@ body {
     font-size: 100%;
 
 }
+/*REGLES DE STYLES*/
+li {
+    list-style: none;
 
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #000;
+}
+.fa-star {
+    color: #d9d9d9;
+}
+.checked {
+    color: #0065fc;
+}
 /*HEADER*/
 header {
     padding-left: 2%;
@@ -53,15 +73,7 @@ header nav ul li {
     border-top: 2px solid transparent;
 }
 
-header nav ul li a:link {
-    text-decoration: none;
-    color: #000;
 
-}
-
-header nav ul li a:visited {
-    color: #000;
-}
 
 header nav ul li a:hover {
     color: #0065fc;
@@ -663,22 +675,8 @@ a:hover h3{
     cursor: pointer;
 }
 
-a:link {
-    text-decoration: none;
-}
 
-main a:visited {
-    text-decoration: none;
-    color: #000;
-}
 
-.fa-star {
-    color: #d9d9d9;
-}
-
-.checked {
-    color: #0065fc;
-}
 
 /*FOOTER*/
 footer{
@@ -717,19 +715,7 @@ footer li {
     height: 30px;
 }
 
-li {
-    list-style: none;
 
-}
-
-footer a:link {
-    text-decoration: none;
-}
-
-footer a:visited {
-    text-decoration: none;
-    color: #000;
-}
 
 /*Breackpoint deskop petits écrans PC*/
 @media screen and (min-width:992px) and (max-width:1439px) {
@@ -750,7 +736,7 @@ footer a:visited {
     }
 
     header nav ul li a:hover {
-        padding: 42px;
+        padding: 43px;
 
     }
 
@@ -1687,11 +1673,11 @@ footer a:visited {
     }
 
     header nav ul li a.hbg:hover {
-        padding: 16px 22%;
+        padding: 16.4px 22%;
     }
 
     header nav ul li a.act:hover {
-        padding: 16px 34%;
+        padding: 16.4px 34%;
     }
 
     main {
@@ -2208,11 +2194,11 @@ footer a:visited {
     }
 
     header nav ul li a.hbg:hover {
-        padding: 17px 22%;
+        padding: 17.5px 22%;
     }
 
     header nav ul li a.act:hover {
-        padding: 17px 34%;
+        padding: 17.5px 34%;
     }
 
     main {
@@ -2662,11 +2648,11 @@ footer a:visited {
     
     
     header nav ul li a.hbg:hover {
-        padding: 18.5px 22%;
+        padding: 19px 22%;
     }
 
     header nav ul li a.act:hover {
-        padding: 18.5px 34%;
+        padding: 19px 34%;
     }
     .texte{
         margin-left: -1%;
