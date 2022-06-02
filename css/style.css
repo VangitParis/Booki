@@ -42,7 +42,7 @@ header nav ul {
 
 header nav ul li {
     width: 140px;
-    height: 99px;
+    height: 98px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ header nav ul li {
 }
 
 header nav ul li {
-    border-top: 1px solid transparent;
+    border-top: 2px solid transparent;
 }
 
 header nav ul li a:link {
@@ -65,7 +65,7 @@ header nav ul li a:visited {
 
 header nav ul li a:hover {
     color: #0065fc;
-    border-top: 1px solid #0065fc;
+    border-top: 2px solid #0065fc;
     cursor: pointer;
     padding: 41px;
     font-weight: 600;
@@ -522,11 +522,11 @@ button:hover {
     box-shadow: 3px 4px 20px grey;
 }
 
-.populaires a .checked:hover {
+.populaires a:hover .checked {
     color: goldenrod;
 }
 
-a h3:hover{
+a:hover h3{
     color: #0065fc;
 
 }
@@ -663,7 +663,7 @@ a h3:hover{
     cursor: pointer;
 }
 
-main a:link {
+a:link {
     text-decoration: none;
 }
 
