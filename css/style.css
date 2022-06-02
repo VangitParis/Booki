@@ -1735,8 +1735,8 @@ footer li {
         padding-left: 40px;
         font-size: 19.5px;
         border-right: 1px solid transparent;
-        margin-left: -15px;
-        margin-right: -10px;
+        margin-left: -10px;
+        margin-right: -1px;
     }
     form:focus-visible{
         outline:none;
@@ -1848,7 +1848,7 @@ footer li {
         padding: 14px 15px;
         margin-right: 14px;
         font-size: 17px;
-        margin-left: -18px;
+        margin-left: -20px;
     }
 
     .InfoTexte {
@@ -2330,7 +2330,7 @@ footer li {
     .fa-heart,
     .fa-dog {
         border-radius: 30px;
-        padding: 13px 11px;
+        padding: 13px 13px;
         margin-right: 10px;
         font-size: 15px;
         margin-left: -18px;
@@ -2339,7 +2339,7 @@ footer li {
 
     .fa-child-reaching {
         border-radius: 30px;
-        padding: 13px 13px;
+        padding: 13px 14px;
         margin-right: 10px;
         font-size: 15px;
         margin-left: -18px;
@@ -2631,10 +2631,6 @@ footer li {
 /*SMARTPHONE mobile S*/
 @media screen and (max-width:374px) {
     
-    header{
-        height: 110px;
-        
-    }
     .barrenav {
         width: 100%;
        
@@ -2673,7 +2669,7 @@ footer li {
     .FormulaireRecherche {
         width: 230px;
        margin-left: -4px;
-       margin-top: 50px;
+       
     }
 
     .FormulaireRecherche .icônegéo {
