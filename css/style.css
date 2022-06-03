@@ -673,9 +673,6 @@ a:hover h3 {
     cursor: pointer;
 }
 
-
-
-
 /*FOOTER*/
 footer {
     background-color: #f2f2f2;
@@ -1264,9 +1261,12 @@ footer li {
     body {
         font-size: 90%;
     }
-
-    header {
-        border-bottom: 1px solid #f2f2f2
+    header{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .barrenav{
+        border-bottom: 2px solid #f2f2f2;
     }
 
     header nav img {
@@ -1283,9 +1283,9 @@ footer li {
 
     header nav ul li a:hover {
         color: #0065fc;
-        border-bottom: 1px solid #0065fc;
+        border-bottom: 2px solid #0065fc;
         border-top: none;
-        padding: 41px;
+        padding: 40px;
     }
 
     .texte {
@@ -1661,7 +1661,7 @@ footer li {
 
     header nav ul {
         font-weight: 300;
-        width: 430px;
+        width: 100%;
         padding: 0;
         justify-content: space-between;
         margin: auto;
@@ -1744,7 +1744,7 @@ footer li {
     }
 
     #search {
-        width: 274px;
+        width: 283px;
         border-top: 1px solid #f2f2f2;
         border-bottom: 1px solid #f2f2f2;
         padding-left: 37px;
@@ -2275,7 +2275,7 @@ footer li {
     }
 
     #search {
-        width: 252px;
+        width: 263px;
         font-size: 18px;
         height: 45px;
     }
@@ -2718,7 +2718,7 @@ footer li {
     }
 
     #search {
-        width: 220px;
+        width: 228px;
         height: 40px;
         font-size: medium;
 
