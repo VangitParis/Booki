@@ -14,14 +14,9 @@
     <link rel="icon" href="images/logo/Booki.png" type="image/icon">
     <title>Booki</title>
 </head>
-<!-------->
 <!--BODY-->
-<!-------->
-
 <body>
-    <!---------->
     <!--HEADER-->
-    <!---------->
     <header>
         <nav class="barrenav">
             <img src="images/logo/Booki@3x.png" alt="Logo de Booki" />
@@ -34,19 +29,15 @@
                 </li>
             </ul>
         </nav>
-    </header>
-    <!----------------->
-    <!--FIN DU HEADER-->
-    <!----------------->
-    <!-------->
-    <!--MAIN-->
-    <!-------->
-    <main>
         <!--TITRE ET PARAGRAPHE-->
         <div class="texte">
             <h1 class="titre">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
         </div>
+    </header>
+    <!--FIN DU HEADER-->
+    <!--MAIN-->
+    <main>
         <!--DEBUT FORMULAIRE DE RECHERCHE-->
         <div class="FormulaireRecherche">
             <div class="icônegéo">
@@ -55,7 +46,9 @@
             <form method="get" action="#">
                 <input type="text" name="recherche" id="search" value="Marseille, France" />
                 <span class="textdeskop"><input type="submit" value="Rechercher"></span>
-                <span class="mobileicone"><input type="submit" class="fa-solid fa-magnifying-glass"></i></span>
+                <span>
+                    <i class="mobileicone"><input type="submit" class="fa-solid fa-magnifying-glass"></i>
+                </span>
             </form>
         </div>
         <!--FIN FORMULAIRE RECHERCHE-->
@@ -86,17 +79,15 @@
             </div>
         </div>
         <!--FIN INFO-->
-        <!-------------------------------------->
         <!-- HEBERGEMENTS ET POPULAIRES-->
-        <!-------------------------------------->
         <!--CONTENEUR PARENT" DES BLOCS HEB ET POP-->
         <div class="hebergementspop">
-            <!--ARTICLE HERBERGEMENT "BLOC PARENT" CONTENANT LE H2,LES BLOCS DE CARDS ET LE TEXTE DU BAS-->
-            <article id="hebergements">
+            <!--SECTION HERBERGEMENT "BLOC PARENT" CONTENANT LE H2,LES BLOCS DE CARDS ET LE TEXTE DU BAS-->
+            <section id="hebergements">
                 <!--TITRE HEB ="enfant"-->
                 <h2 class="titreheb">Hébergements à Marseille</h2>
                 <!-- PREMIER BLOC DE CARTES QUI ENGLOBENT LES 3 PREMIERES CARDS ="enfant" de "blocs"-->
-                <div class="bloc-cartes-1">
+                <article class="bloc-cartes-1">
                     <!--1ère card heb-->
                     <a href="#">
                         <figure>
@@ -153,9 +144,9 @@
                             </figcaption>
                         </figure>
                     </a>
-                </div>
+                </article>
                 <!-- SECOND BLOC DE CARTES QUI ENGLOBENT LES 3 DERNIERES CARDS-->
-                <div class="bloc-cartes-2">
+                <article class="bloc-cartes-2">
                     <!--4ème card heb-->
                     <a href="#">
                         <figure>
@@ -210,20 +201,20 @@
                             </figcaption>
                         </figure>
                     </a>
-                </div>
+                </article>
                 <!--TEXTE BAS HEBERGEMENT-->
                 <p class="afficherplus">Afficher plus</p>
-            </article>
-            <!--FIN ARTICLE HEBERGEMENT-->
-            <!--ASIDE POPULAIRE "BLOC PARENT" CONTENANT H2 AVEC ICONE ET CARDS : BLOC "ENFANT" DE "SECTION HEB POP" -->
+            </section>
+            <!--FIN SECTION HEBERGEMENT-->
+            <!--SECTION POPULAIRE "BLOC PARENT" CONTENANT H2 AVEC ICONE ET CARDS : BLOC "ENFANT" DE "SECTION HEB POP" -->
             <aside class="populaires">
                 <!--TITRE H2 AVEC ICONE ="enfant" de ASIDE-->
                 <div class="titrestar">
                     <h2>Les plus populaires</h2>
                     <span class="fa fa-star checked"></span>
                 </div>
-                <!--BLOC CARDS ="enfant de ASIDE"-->
-                <div class="blocPop">
+                <!--BLOC CARDS-->
+                <article class="blocPop">
                     <!--1ère card pop-->
                     <a href="#" class="card">
                         <figure>
@@ -278,19 +269,16 @@
                             </figcaption>
                         </figure>
                     </a>
-                </div>
+                </article>
             </aside>
-            <!--FIN ASIDE POPULAIRES-->
+            <!--FIN SECTION POPULAIRES-->
         </div>
-        <!--FIN SECTION HEB+POP-->
-        <!---->
-        <!--SECTION ACTIVITES-->
-        <!---->
-        <!--SECTION ACTIVIVITES ="PARENT" contenant H2, article -->
+        <!--FIN HEB+POP-->
+        <!--SECTION ACTIVIVITES ="PARENT" contenant H2, article-->
         <section id="Activités">
             <h2 class="titreactivites">Activités à Marseille</h2>
             <!--CONTENEUR "PARENT" DES VIGNETTES ACTIVITES-->
-            <div class="card">
+            <article class="card">
                 <!--CARD VIEUX PORT-->
                 <a href="#" class="Act_VP">
                     <figure>
@@ -352,44 +340,39 @@
                         </figure>
                     </a>
                 </div>
-            </div>
+            </article>
         </section>
         <!--FIN SECTION ACTIVITES-->
     </main>
-    <!------------->
     <!--FIN DU MAIN-->
-    <!------------->
     <!--FOOTER-->
-    <!------------->
     <footer>
         <div class="ensemblefooter">
-            <div class="apropos">
+            <nav class="apropos">
                 <h3>A propos</h3>
                 <ul>
                     <li><a href="#" class="lienfooter">Fonctionnement du site</a></li>
                     <li><a href="#" class="lienfooter">Conditions générales de vente</a></li>
                     <li><a href="#" class="lienfooter">Données et confidentialité</a></li>
                 </ul>
-            </div>
-            <div class="noshebergements">
+            </nav>
+            <nav class="noshebergements">
                 <h3>Nos hébergements</h3>
                 <ul>
                     <li><a href="#" class="lienfooter">Charte qualité</a></li>
                     <li><a href="#" class="lienfooter">Soumettre votre hôtel</a></li>
                 </ul>
-            </div>
-            <div class="assistance">
+            </nav>
+            <nav class="assistance">
                 <h3>Assistance</h3>
                 <ul>
                     <li><a href="#" class="lienfooter">Centre d'aide</a></li>
                     <li><a href="#" class="lienfooter">Nous contacter</a></li>
                 </ul>
-            </div>
+            </nav>
         </div>
     </footer>
-    <!--------------->
     <!--FIN DU FOOTER-->
-    <!--------------->
 </body>
 
 </html>
