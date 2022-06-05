@@ -154,6 +154,10 @@ form {
 #search {
     padding-left: 20px;
 }
+::placeholder{
+    color: #000;
+    background-color: white;
+}
 
 form input {
     background-color: #0065FC;
